@@ -23,13 +23,5 @@ const RoomSchema = new mongoose.Schema({
   { timestamps: true }
 );
 
-// Room Number & Dates
-[
-    {number:101,unavailableDates:[]},
-    {number:102,unavailableDates:[]},
-    {number:103,unavailableDates:[]},
-    {number:104,unavailableDates:[]},
-    {number:105,unavailableDates:[]},
-]
 
 export default mongoose.model("Room" , RoomSchema)
